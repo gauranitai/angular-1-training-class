@@ -15,5 +15,21 @@ function AppController($scope) {
       affiliations: ['Jedi', 'Rebels'],
       light: true
     },
+    {
+      id: 1,
+      name: 'Kartikeya',
+      imageUrl: '',
+      power: 9999,
+      affiliations: ['Fire', 'Storm' ],
+      light:true
+    },
+    {
+      id: 1,
+      name: 'Ravana',
+      imageUrl: '',
+      power: 8888,
+      affiliations: ['Tunnel'],
+      light:false
+    },
   ]
 }
