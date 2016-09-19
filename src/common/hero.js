@@ -56,12 +56,16 @@ function heroService() {
   ];
 
   var service = {
-    getAll: getAll
+    getAll: getAll,
+    get:get
   };
 
   function getAll() {
     console.log('hero::heroService::getAll');
     return heroes;
+  }
+  function get(id) {
+    return heroes[id];
   }
 
   return service;
