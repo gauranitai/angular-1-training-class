@@ -1,3 +1,21 @@
 .squad-grid-item-container {
-    border: 1px solid #0000ff;
+    border: 4px solid #ffffff;
+    padding: 10px;
+}
+
+.squad-grid-item-content {
+    text-align: center;
+}
+
+.grid-image {
+    width: 150px;
+    height: 150px;
+}
+
+.squad-light {
+    border-color: #337ab7;
+}
+
+.squad-dark {
+    border-color: #d9534f;
 }
